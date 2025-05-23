@@ -9,7 +9,8 @@ canal_origem = -1002392524513
 canal_destino = -1002655261655
 
 client = TelegramClient('sinais', api_id, api_hash)
-bot = Bot(token=bot_token)
+import os
+bot_token = os.getenv("BOT_TOKEN")
 
 def inverter_sinal(mensagem):
     return mensagem.replace('ABAIXO', 'CALL').replace('ACIMA', 'PUT')
