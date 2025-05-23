@@ -3,7 +3,7 @@ from telegram import Bot
 
 api_id = 28664878
 api_hash = "6bed082ff2a1fb82661440e4eccf79df"
-bot_token = 7504359239:AAEmf8i_htNIyGIPZ7OrwDUEqfcEecGyKRI
+bot_token = "7504359239:AAEmf8i_htNIyGIPZ7OrwDUEqfcEecGyKRI"
 
 canal_origem = -1002392524513
 canal_destino = -1002655261655
